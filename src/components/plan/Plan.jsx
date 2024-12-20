@@ -222,7 +222,7 @@ const Plan = () => {
         </div>
       </div>
 
-      <div className="modal-window">
+      {/* <div className="modal-window">
         <div className="modal-summary">
           <h1 className='summary-h'>Order Summary</h1>
         </div>
@@ -234,7 +234,8 @@ const Plan = () => {
             <button className='costs-btn'>Checkout</button>
           </div>
         </div>
-      </div>
+      </div> */}
+
     </div>
   );
 };

@@ -19,7 +19,7 @@ const About = () => {
 
       <div className="commitment">
         <div className="commitment-img">
-          <img src="../about/rasm1.png" height={520} width={445} />
+          <img alt="" src="../about/rasm1.png" height={520} width={445} />
         </div>
 
         <div className="commitment-info">
@@ -38,7 +38,7 @@ const About = () => {
           <p className="quality-p">Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.</p>
         </div>
 
-        <img className="quality-img" src="../about/rasm3.png" height={474} width={445} />
+        <img alt="" className="quality-img" src="../about/rasm3.png" height={474} width={445} />
 
       </div>
 
@@ -48,39 +48,39 @@ const About = () => {
         <h1 className='headquarters-h1'>Our headquarters</h1>
         <div className="countries">
           <div className="countries-card">
-            <img src="../about/uk.png" alt="" />
+            <img alt="" src="../about/uk.png"  />
             <h1 className='headquarters-h11'>United Kingdom</h1>
             <ul className='headquarters-ul'>
-              <li><a href="#">68  Asfordby Rd</a></li>
-              <li><a href="#">Alcaston</a></li>
-              <li><a href="#">SY6 1YA</a></li>
-              <li><a href="#">+44 1241 918425</a></li>
+              <li><a href="/">68  Asfordby Rd</a></li>
+              <li><a href="/">Alcaston</a></li>
+              <li><a href="/">SY6 1YA</a></li>
+              <li><a href="/">+44 1241 918425</a></li>
             </ul>
           </div>
 
           <div className="countries-card">
-            <img src="../about/canada.png" alt="" />
+            <img alt="" src="../about/canada.png" />
             <h1 className='headquarters-h11'>Canada</h1>
             <ul className='headquarters-ul'>
-              <li><a href="#"> Toronto</a></li>
-              <li><a href="#">Alcaston</a></li>
-              <li><a href="#">Ontario M4P 1A6</a></li>
-              <li><a href="#">+1 416 485 2997</a></li>
+              <li><a href="/"> Toronto</a></li>
+              <li><a href="/">Alcaston</a></li>
+              <li><a href="/">Ontario M4P 1A6</a></li>
+              <li><a href="/">+1 416 485 2997</a></li>
             </ul>
           </div>
 
           <div className="countries-card">
-            <img src="../about/australia.png" alt="" />
+            <img alt="" src="../about/australia.png" />
             <h1 className='headquarters-h11'>Australiya</h1>
             <ul className='headquarters-ul'>
 
              
              
               
-              <li><a href="#">36 Swanston Street</a></li>
-              <li><a href="#"> Kewell</a></li>
-              <li><a href="#"> Victoria</a></li>
-              <li><a href="#">+61 4 9928 3629</a></li>
+              <li><a href="/">36 Swanston Street</a></li>
+              <li><a href="/"> Kewell</a></li>
+              <li><a href="/"> Victoria</a></li>
+              <li><a href="/">+61 4 9928 3629</a></li>
             </ul>
           </div>
 
