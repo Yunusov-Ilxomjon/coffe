@@ -1,0 +1,162 @@
+.about-container {
+    max-width: 1440px;
+    width: 100%;
+    height: 2450px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-image {
+    width: 1280px;
+    height: 450px;
+    border-radius: 15px;
+    background: url('../../../public/about/rasm2.png') no-repeat center center/cover;
+}
+
+.about-us-info {
+    width: 445px;
+    height: 176px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin-top: 135px;
+    margin-left: 85px;
+}
+
+.about-us-h {
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-us-p {
+    font-size: 16px;
+    color: white;
+    margin-top: 24px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* -----commitmeny----- */
+
+.commitment {
+    width: 1110px;
+    height: 520px;
+    /* border: 2px solid black; */
+    margin-top: 160px;
+    display: flex;
+
+}
+
+.commitment-img {
+    width: 445px;
+    height: 520px;
+}
+
+.commitment-h {
+    font-size: 40px;
+    color: #333D4B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 125px;
+    margin-top: 90px;
+}
+
+.commitment-p {
+    font-size: 16px;
+    color: #333D4B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 125px;
+    margin-top: 30px;
+}
+
+/* ---quality--- */
+
+.quality {
+    width: 1280px;
+    height: 474px;
+    /* border: 2px solid black; */
+    margin-top: 255px;
+    background-color: #282F38;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+
+}
+
+.quality-text {
+    width: 50%;
+    height: 100%;
+}
+
+.quality-h {
+    font-size: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 85px;
+    margin-top: 90px;
+}
+
+.quality-p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 85px;
+    margin-top: 30px;
+    width: 540px;
+}
+
+.quality-img {
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -88px;
+}
+
+/* ---headquarters--- */
+
+.headquarters {
+    width: 1045px;
+    height: 366px;
+    /* border: 2px solid black; */
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.headquarters-h1 {
+    font-size: 24px;
+    color: #83888F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.countries {
+    width: 1045px;
+    height: 262px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.countries-card {
+    width: 285px;
+    height: 262px;
+    /* border: 2px solid rgb(6, 251, 10); */
+
+}
+
+.headquarters-h11 {
+    font-size: 32px;
+    color: #333D4B;
+    margin-top: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headquarters-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 25px;
+    color: #333D4B;
+}
